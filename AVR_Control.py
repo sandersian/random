@@ -55,7 +55,7 @@ elif (avr_function == "INPUT"):
     if (currnetInput != 'SIPHONO'):
         connection.write(b'SIPHONO')
     if (currnetInput == 'SIPHONO'):
-        connection.write(b'SIBD')
+        connection.write(b'SIMPLAY')
 else:
     print("No valid argument provided")
 
